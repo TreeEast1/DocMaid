@@ -4,13 +4,14 @@
   "description": "AI-powered document structure assistant for Yuque and Feishu.",
   "version": "0.1.0",
   "minimum_chrome_version": "114",
-  "permissions": ["sidePanel", "storage", "activeTab", "scripting"],
+  "permissions": ["sidePanel", "storage", "activeTab", "scripting", "permissions"],
   "host_permissions": [
     "https://www.yuque.com/*",
     "https://*.yuque.com/*",
     "https://*.feishu.cn/*",
     "https://*.larksuite.com/*"
   ],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
   "background": {
     "service_worker": "src/background/index.ts",
     "type": "module"

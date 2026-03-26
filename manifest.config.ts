@@ -9,13 +9,14 @@ export default defineManifest({
   action: {
     default_title: 'Open DocMaid'
   },
-  permissions: ['sidePanel', 'storage', 'activeTab', 'scripting'],
+  permissions: ['sidePanel', 'storage', 'activeTab', 'scripting', 'permissions'],
   host_permissions: [
     'https://www.yuque.com/*',
     'https://*.yuque.com/*',
     'https://*.feishu.cn/*',
     'https://*.larksuite.com/*'
   ],
+  optional_host_permissions: ['https://*/*', 'http://*/*'],
   background: {
     service_worker: 'src/background/index.ts',
     type: 'module'
@@ -35,15 +36,5 @@ export default defineManifest({
   side_panel: {
     default_path: 'src/sidepanel/index.html'
   },
-  web_accessible_resources: [
-    {
-      resources: ['src/content/extractPageText.ts'],
-      matches: [
-        'https://www.yuque.com/*',
-        'https://*.yuque.com/*',
-        'https://*.feishu.cn/*',
-        'https://*.larksuite.com/*'
-      ]
-    }
-  ]
+  web_accessible_resources: []
 });

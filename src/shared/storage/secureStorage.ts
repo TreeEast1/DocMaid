@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'docmaid.openai.credentials';
+const STORAGE_KEY = 'docmaid.llm.credentials';
 const MASTER_KEY_KEY = 'docmaid.master.key';
 
 interface EncryptedPayload {
