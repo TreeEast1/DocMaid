@@ -1,0 +1,63 @@
+<svg width="1600" height="1040" viewBox="0 0 1600 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="page" x1="180" y1="70" x2="1450" y2="990" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F3EB"/>
+      <stop offset="1" stop-color="#E6EFF2"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1600" height="1040" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#112132" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1040" rx="34" fill="url(#page)"/>
+  <text x="108" y="112" fill="#112132" font-family="Arial, sans-serif" font-size="42" font-weight="700">分析结果视图示意</text>
+  <text x="108" y="156" fill="#647987" font-family="Arial, sans-serif" font-size="22">README 中展示的是产品视觉稿，实际界面会随着数据内容动态变化</text>
+  <g filter="url(#softShadow)">
+    <rect x="88" y="214" width="1424" height="740" rx="30" fill="#FFFFFF"/>
+  </g>
+  <rect x="120" y="246" width="432" height="304" rx="24" fill="#FBFCFD" stroke="#E0E8EC"/>
+  <text x="152" y="290" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">原始大纲</text>
+  <text x="152" y="336" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">H1 实习项目总结</text>
+  <text x="176" y="372" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">H3 项目背景</text>
+  <text x="176" y="408" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">H2 工作内容</text>
+  <text x="176" y="444" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">H4 技术细节</text>
+  <rect x="152" y="474" width="180" height="34" rx="12" fill="#FFF5E7"/>
+  <text x="172" y="497" fill="#A56500" font-family="Arial, sans-serif" font-size="15" font-weight="700">存在跳级标题</text>
+  <rect x="584" y="246" width="432" height="304" rx="24" fill="#FBFCFD" stroke="#E0E8EC"/>
+  <text x="616" y="290" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">建议蓝图</text>
+  <text x="616" y="336" fill="#0F766E" font-family="Arial, sans-serif" font-size="18">H1 实习项目总结</text>
+  <text x="640" y="372" fill="#0F766E" font-family="Arial, sans-serif" font-size="18">H2 项目背景与目标</text>
+  <text x="640" y="408" fill="#0F766E" font-family="Arial, sans-serif" font-size="18">H2 工作内容</text>
+  <text x="664" y="444" fill="#0F766E" font-family="Arial, sans-serif" font-size="18">H3 关键技术细节</text>
+  <rect x="616" y="474" width="210" height="34" rx="12" fill="#E8F5F4"/>
+  <text x="636" y="497" fill="#0F766E" font-family="Arial, sans-serif" font-size="15" font-weight="700">最小改动，层级更顺</text>
+  <rect x="1048" y="246" width="432" height="304" rx="24" fill="#FBFCFD" stroke="#E0E8EC"/>
+  <text x="1080" y="290" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">一致性检查</text>
+  <rect x="1080" y="330" width="160" height="40" rx="14" fill="#E8F5F4"/>
+  <text x="1160" y="356" text-anchor="middle" fill="#0F766E" font-family="Arial, sans-serif" font-size="16" font-weight="700">verdict: pass</text>
+  <text x="1080" y="410" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">保留术语：API、Prompt、LaTeX</text>
+  <text x="1080" y="446" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">代码块数量：2 → 2</text>
+  <text x="1080" y="482" fill="#5F7280" font-family="Arial, sans-serif" font-size="18">公式块数量：1 → 1</text>
+  <rect x="120" y="586" width="1360" height="328" rx="26" fill="#F8FBFC" stroke="#E0E8EC"/>
+  <text x="152" y="632" fill="#112132" font-family="Arial, sans-serif" font-size="30" font-weight="700">审计问题列表</text>
+  <rect x="152" y="674" width="392" height="188" rx="22" fill="#FFFFFF" stroke="#E0E8EC"/>
+  <text x="176" y="716" fill="#112132" font-family="Arial, sans-serif" font-size="20" font-weight="700">问题 1：标题跳级</text>
+  <text x="176" y="752" fill="#5F7280" font-family="Arial, sans-serif" font-size="16">H1 后直接出现 H3，会让目录结构断层。</text>
+  <text x="176" y="786" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">建议：将“项目背景”提升为 H2。</text>
+  <rect x="176" y="810" width="86" height="30" rx="10" fill="#FFF5E7"/>
+  <text x="219" y="830" text-anchor="middle" fill="#A56500" font-family="Arial, sans-serif" font-size="14" font-weight="700">high</text>
+  <rect x="584" y="674" width="392" height="188" rx="22" fill="#FFFFFF" stroke="#E0E8EC"/>
+  <text x="608" y="716" fill="#112132" font-family="Arial, sans-serif" font-size="20" font-weight="700">问题 2：标题语义太弱</text>
+  <text x="608" y="752" fill="#5F7280" font-family="Arial, sans-serif" font-size="16">“其他”“说明”这类标题无法体现内容主题。</text>
+  <text x="608" y="786" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">建议：改成“部署说明”“风险与限制”。</text>
+  <rect x="608" y="810" width="104" height="30" rx="10" fill="#EEF7F8"/>
+  <text x="660" y="830" text-anchor="middle" fill="#0F766E" font-family="Arial, sans-serif" font-size="14" font-weight="700">medium</text>
+  <rect x="1016" y="674" width="432" height="188" rx="22" fill="#FFFFFF" stroke="#E0E8EC"/>
+  <text x="1040" y="716" fill="#112132" font-family="Arial, sans-serif" font-size="20" font-weight="700">问题 3：单节过长</text>
+  <text x="1040" y="752" fill="#5F7280" font-family="Arial, sans-serif" font-size="16">一个小节承载过多内容，读者难以快速定位。</text>
+  <text x="1040" y="786" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">建议：按主题拆成“背景 / 方案 / 风险”。</text>
+  <rect x="1040" y="810" width="104" height="30" rx="10" fill="#EEF7F8"/>
+  <text x="1092" y="830" text-anchor="middle" fill="#0F766E" font-family="Arial, sans-serif" font-size="14" font-weight="700">medium</text>
+  <path d="M552 398H584" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1016 398H1048" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+  <text x="108" y="994" fill="#73838F" font-family="Arial, sans-serif" font-size="20">图示：DocMaid 会把原始目录、建议蓝图、问题审计和一致性结果放在同一个视图中，便于快速比对</text>
+</svg>

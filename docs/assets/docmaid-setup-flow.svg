@@ -1,0 +1,66 @@
+<svg width="1600" height="820" viewBox="0 0 1600 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="170" y1="60" x2="1440" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3EA"/>
+      <stop offset="1" stop-color="#E6F0F2"/>
+    </linearGradient>
+    <filter id="cardShadow" x="0" y="0" width="1600" height="820" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0F2231" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="820" rx="32" fill="url(#bg)"/>
+  <text x="110" y="124" fill="#112132" font-family="Arial, sans-serif" font-size="42" font-weight="700">DocMaid 配置与使用流程</text>
+  <text x="110" y="168" fill="#667987" font-family="Arial, sans-serif" font-size="22">第一次使用时，用户只需要顺着这条流程走一遍，就能开始生成文档整理建议</text>
+  <g filter="url(#cardShadow)">
+    <rect x="96" y="236" width="284" height="386" rx="28" fill="#FFFFFF"/>
+    <rect x="408" y="236" width="284" height="386" rx="28" fill="#FFFFFF"/>
+    <rect x="720" y="236" width="284" height="386" rx="28" fill="#FFFFFF"/>
+    <rect x="1032" y="236" width="284" height="386" rx="28" fill="#FFFFFF"/>
+    <rect x="1344" y="236" width="160" height="386" rx="28" fill="#FFFFFF"/>
+  </g>
+  <circle cx="152" cy="292" r="28" fill="#112132"/>
+  <text x="152" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">1</text>
+  <text x="192" y="294" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">打开文档</text>
+  <text x="128" y="352" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">在语雀或飞书页面中打开目标文档，</text>
+  <text x="128" y="382" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">DocMaid 会自动提取正文、标题和目录。</text>
+  <rect x="128" y="432" width="220" height="118" rx="20" fill="#F7FAFB" stroke="#E1EAEE"/>
+  <text x="152" y="474" fill="#0F766E" font-family="Arial, sans-serif" font-size="18" font-weight="700">支持页面</text>
+  <text x="152" y="510" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">- 语雀文档</text>
+  <text x="152" y="538" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">- 飞书文档</text>
+  <circle cx="464" cy="292" r="28" fill="#112132"/>
+  <text x="464" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">2</text>
+  <text x="504" y="294" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">填写配置</text>
+  <text x="440" y="352" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">选择你的模型服务，并填写：</text>
+  <text x="440" y="388" fill="#112132" font-family="Arial, sans-serif" font-size="16" font-weight="700">API Base URL</text>
+  <text x="440" y="420" fill="#112132" font-family="Arial, sans-serif" font-size="16" font-weight="700">Model</text>
+  <text x="440" y="452" fill="#112132" font-family="Arial, sans-serif" font-size="16" font-weight="700">API Key</text>
+  <rect x="440" y="494" width="214" height="58" rx="18" fill="#EEF7F8"/>
+  <text x="547" y="530" text-anchor="middle" fill="#0F766E" font-family="Arial, sans-serif" font-size="18" font-weight="700">OpenAI-compatible / Gemini</text>
+  <circle cx="776" cy="292" r="28" fill="#112132"/>
+  <text x="776" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">3</text>
+  <text x="816" y="294" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">测试连接</text>
+  <text x="752" y="352" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">点击“测试连接”，DocMaid 会请求</text>
+  <text x="752" y="382" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">对应 API 域名权限并做一次健康检查。</text>
+  <rect x="752" y="436" width="220" height="98" rx="20" fill="#FFF7E8" stroke="#F1D79D"/>
+  <text x="778" y="476" fill="#A76800" font-family="Arial, sans-serif" font-size="18" font-weight="700">提示</text>
+  <text x="778" y="508" fill="#795A16" font-family="Arial, sans-serif" font-size="16">首次测试时会弹出权限确认</text>
+  <circle cx="1088" cy="292" r="28" fill="#112132"/>
+  <text x="1088" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">4</text>
+  <text x="1128" y="294" fill="#112132" font-family="Arial, sans-serif" font-size="28" font-weight="700">运行工作流</text>
+  <text x="1064" y="352" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">Auditor、Structuring Specialist、</text>
+  <text x="1064" y="382" fill="#5E7280" font-family="Arial, sans-serif" font-size="18">Consistency Guard 顺序执行。</text>
+  <rect x="1064" y="438" width="218" height="118" rx="20" fill="#F7FAFB" stroke="#E1EAEE"/>
+  <text x="1090" y="476" fill="#112132" font-family="Arial, sans-serif" font-size="16" font-weight="700">输出内容</text>
+  <text x="1090" y="510" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">- 问题审计</text>
+  <text x="1090" y="538" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">- 建议蓝图</text>
+  <text x="1090" y="566" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">- 一致性检查</text>
+  <circle cx="1400" cy="292" r="28" fill="#112132"/>
+  <text x="1400" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">5</text>
+  <text x="1384" y="352" fill="#112132" font-family="Arial, sans-serif" font-size="26" font-weight="700">复制蓝图</text>
+  <text x="1372" y="392" fill="#5E7280" font-family="Arial, sans-serif" font-size="16">回到原文档人工落地</text>
+  <path d="M380 428H408" stroke="#0F766E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M692 428H720" stroke="#0F766E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1004 428H1032" stroke="#0F766E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1316 428H1344" stroke="#0F766E" stroke-width="6" stroke-linecap="round"/>
+  <text x="110" y="710" fill="#73838F" font-family="Arial, sans-serif" font-size="20">图示：推荐使用 OpenAI-compatible 或 Gemini，测试连接通过后即可直接运行整理流程</text>
+</svg>

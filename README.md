@@ -4,6 +4,20 @@ DocMaid 是一个面向语雀和飞书文档的 Chrome 插件，运行在浏览�
 
 它的核心思路不是改写正文，而是先抓取当前云文档的标题结构和内容摘要，再通过多智能体工作流给出更合理的文档骨架建议，让你能用最小改动把文档整理回可读、可维护的状态。
 
+## 产品界面预览
+
+### 侧边栏总览
+
+![DocMaid 侧边栏总览](docs/assets/docmaid-overview.svg)
+
+### 首次配置与使用流程
+
+![DocMaid 配置流程](docs/assets/docmaid-setup-flow.svg)
+
+### 分析结果视图
+
+![DocMaid 分析结果视图](docs/assets/docmaid-analysis-view.svg)
+
 ## 项目定位
 
 DocMaid 主要适合以下场景：

@@ -1,0 +1,74 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1440" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EFE6"/>
+      <stop offset="0.45" stop-color="#F8FBFC"/>
+      <stop offset="1" stop-color="#E2EDF1"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="1035" y1="126" x2="1416" y2="795" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F7F8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="960" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#102131" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="960" rx="36" fill="url(#bg)"/>
+  <rect x="72" y="60" width="1456" height="840" rx="34" fill="#FAFCFD" stroke="#D7E4E8"/>
+  <rect x="112" y="100" width="906" height="760" rx="28" fill="#FFFFFF" stroke="#E1EAEE"/>
+  <rect x="112" y="100" width="906" height="68" rx="28" fill="#F4F7F8"/>
+  <circle cx="154" cy="134" r="8" fill="#F28B82"/>
+  <circle cx="180" cy="134" r="8" fill="#F6C26B"/>
+  <circle cx="206" cy="134" r="8" fill="#81C995"/>
+  <rect x="252" y="118" width="382" height="32" rx="16" fill="#E7EEF1"/>
+  <text x="274" y="139" fill="#607380" font-family="Arial, sans-serif" font-size="18">yuque.com/teameast/docmaid/product-architecture</text>
+  <text x="144" y="216" fill="#112132" font-family="Arial, sans-serif" font-size="34" font-weight="700">云文档架构设计</text>
+  <text x="144" y="254" fill="#667987" font-family="Arial, sans-serif" font-size="20">语雀文档正文区域示意</text>
+  <rect x="144" y="292" width="258" height="42" rx="14" fill="#E8F5F4"/>
+  <text x="164" y="319" fill="#0F766E" font-family="Arial, sans-serif" font-size="18" font-weight="700">H1 产品定位与价值</text>
+  <rect x="144" y="356" width="428" height="18" rx="9" fill="#EDF2F5"/>
+  <rect x="144" y="386" width="624" height="18" rx="9" fill="#EDF2F5"/>
+  <rect x="144" y="416" width="548" height="18" rx="9" fill="#EDF2F5"/>
+  <rect x="176" y="472" width="238" height="38" rx="12" fill="#EEF7F8"/>
+  <text x="196" y="497" fill="#246A74" font-family="Arial, sans-serif" font-size="17" font-weight="700">H2 当前文档熵增问题</text>
+  <rect x="176" y="530" width="598" height="16" rx="8" fill="#EDF2F5"/>
+  <rect x="176" y="556" width="478" height="16" rx="8" fill="#EDF2F5"/>
+  <rect x="176" y="582" width="642" height="16" rx="8" fill="#EDF2F5"/>
+  <rect x="176" y="630" width="222" height="36" rx="12" fill="#EEF7F8"/>
+  <text x="196" y="654" fill="#246A74" font-family="Arial, sans-serif" font-size="16" font-weight="700">H2 多智能体整理方案</text>
+  <rect x="176" y="684" width="204" height="32" rx="10" fill="#FFF6E7"/>
+  <text x="192" y="705" fill="#A96800" font-family="Arial, sans-serif" font-size="15" font-weight="700">Auditor 结构审计</text>
+  <rect x="396" y="684" width="246" height="32" rx="10" fill="#E8F5F4"/>
+  <text x="412" y="705" fill="#0F766E" font-family="Arial, sans-serif" font-size="15" font-weight="700">Structuring 最小重组</text>
+  <rect x="658" y="684" width="240" height="32" rx="10" fill="#EEF0FF"/>
+  <text x="674" y="705" fill="#4757C5" font-family="Arial, sans-serif" font-size="15" font-weight="700">Consistency 一致性校验</text>
+  <g filter="url(#shadow)">
+    <rect x="1044" y="112" width="432" height="736" rx="30" fill="url(#panel)"/>
+  </g>
+  <text x="1080" y="158" fill="#0F766E" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">DOCMAID</text>
+  <text x="1080" y="198" fill="#112132" font-family="Arial, sans-serif" font-size="34" font-weight="700">文档架构整理侧边栏</text>
+  <text x="1080" y="232" fill="#687A86" font-family="Arial, sans-serif" font-size="18">实时抓取当前页面内容，并生成结构建议</text>
+  <rect x="1080" y="270" width="180" height="92" rx="20" fill="#F5EFE6"/>
+  <text x="1104" y="302" fill="#697B87" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">SOURCE</text>
+  <text x="1104" y="338" fill="#112132" font-family="Arial, sans-serif" font-size="30" font-weight="700">yuque</text>
+  <rect x="1278" y="270" width="162" height="92" rx="20" fill="#F7FAFB" stroke="#E0E9ED"/>
+  <text x="1300" y="302" fill="#697B87" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">ISSUES</text>
+  <text x="1300" y="338" fill="#112132" font-family="Arial, sans-serif" font-size="30" font-weight="700">4</text>
+  <rect x="1080" y="392" width="360" height="54" rx="16" fill="#112132"/>
+  <text x="1200" y="426" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">运行工作流</text>
+  <rect x="1080" y="470" width="360" height="136" rx="22" fill="#FBFCFD" stroke="#E0E8EC"/>
+  <text x="1104" y="506" fill="#112132" font-family="Arial, sans-serif" font-size="20" font-weight="700">原始大纲</text>
+  <text x="1104" y="540" fill="#5D7080" font-family="Arial, sans-serif" font-size="16">H1 产品定位与价值</text>
+  <text x="1128" y="572" fill="#5D7080" font-family="Arial, sans-serif" font-size="16">H2 当前文档熵增问题</text>
+  <text x="1128" y="604" fill="#5D7080" font-family="Arial, sans-serif" font-size="16">H2 多智能体整理方案</text>
+  <rect x="1080" y="626" width="360" height="184" rx="22" fill="#FBFCFD" stroke="#E0E8EC"/>
+  <text x="1104" y="662" fill="#112132" font-family="Arial, sans-serif" font-size="20" font-weight="700">建议蓝图</text>
+  <text x="1104" y="698" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">H1 产品定位与价值</text>
+  <text x="1128" y="730" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">H2 当前痛点与整理目标</text>
+  <text x="1128" y="762" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">H2 多智能体工作流设计</text>
+  <text x="1128" y="794" fill="#0F766E" font-family="Arial, sans-serif" font-size="16">H2 交互与落地方式</text>
+  <path d="M1018 478C1035 478 1048 491 1048 508C1048 525 1035 538 1018 538C1001 538 988 525 988 508C988 491 1001 478 1018 478Z" fill="#0F766E"/>
+  <text x="1018" y="515" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="700">AI</text>
+  <path d="M962 704C999 704 1028 675 1028 638C1028 601 999 572 962 572" stroke="#0F766E" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <text x="116" y="840" fill="#73838F" font-family="Arial, sans-serif" font-size="18">图示：DocMaid 在文档页面右侧以 Side Panel 形式展示抓取结果、问题审计和建议蓝图</text>
+</svg>
